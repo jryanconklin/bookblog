@@ -1,6 +1,13 @@
-<ul>
+<div class="row">
   <h2>New York Times' Hardcover Fiction Top 5</h2>
   {{#each model as |hardcoverfiction|}}
-    <li>{{hardcoverfiction.title}} by {{hardcoverfiction.author}} - <a href="{{hardcoverfiction.amazon_product_url}}">Amazon</a></li>
+    <div class="col-sm-6">
+      <div class="well">
+        <h4>{{hardcoverfiction.title}}</h4>
+        <h4 class="small">by {{hardcoverfiction.author}}</h4>
+        <p>{{hardcoverfiction.description}}</p>
+        <a href="{{hardcoverfiction.amazon_product_url}}">Amazon</a>
+      </div>
+    </div>
   {{/each}}
-</ul>
+</div>
