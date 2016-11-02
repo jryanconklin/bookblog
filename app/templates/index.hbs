@@ -1,0 +1,6 @@
+<ul>
+  <h2>New York Times' Hardcover Fiction Top 5</h2>
+  {{#each model as |hardcoverfiction|}}
+    <li>{{hardcoverfiction.title}} by {{hardcoverfiction.author}} - <a href="{{hardcoverfiction.amazon_product_url}}">Amazon</a></li>
+  {{/each}}
+</ul>
