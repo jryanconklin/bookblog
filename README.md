@@ -1,7 +1,6 @@
 # Bookblog
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A proof-of-concept website for working with the New York Times API.
 
 ## Prerequisites
 
